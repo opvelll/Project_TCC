@@ -310,7 +310,7 @@
       }
     },
     "com.unity.toonshader": {
-      "version": "0.9.5-preview",
+      "version": "0.10.2-preview",
       "depth": 0,
       "source": "registry",
       "dependencies": {
