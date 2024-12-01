@@ -1,4 +1,4 @@
-# Project_TCC v.1.0.3
+# Project_TCC v.1.0.2
 TCC stands for **Tiny Character Controller**. TCC provides a comprehensive solution for creating your own game.
 
 This repository contains all packages and examples for TCC projects.
@@ -35,24 +35,12 @@ http://tsugi-studio.com/web/jp/products-gamesynth.html
 * This project contains the font 'Source Han Sans' font. This font is licensed by Adobe and SIL OPEN FONT LICENSE v.1.1
 https://github.com/adobe-fonts/source-han-sans?tab=License-1-ov-file#License-1-ov-file
 
-## Unity Version
-
-6000.0.28f1
-
-## Project_TCCに含まれるシステムを、ご自身のUnityプロジェクトにインストールしたい場合
-
-[Project_TCCシステムインストールガイド](./Documentations/SystemInstallGuide.md) に従って、インストールすることができます。　
-
-
-## チュートリアル
-- [My First TCC チュートリアル](./Documentations/My_First_TCC.md) 
-- [SceneLoader チュートリアル](./Documentations/SceneLoader_Tutorial.md) 
-
 
 ---
-
-
 # Project TCC 解説ドキュメント
+
+## Project_TCCが開発されたUnityのバージョン
+* Unity 2023.2.0f1
 
 ## 概要
 
@@ -173,12 +161,20 @@ Project_TCCに含まれる主要なコンポーネント群について、その
 
 
 
+## Project_TCCに含まれるシステムを、ご自身のUnityプロジェクトにインストールしたい場合
+
+[Project_TCCシステムインストールガイド](./Documentations/SystemInstallGuide.md) に従って、インストールすることができます。　
+
 
 
 ## 独自のコントロールを作成したい場合
 
 [独自のコントロールを作成するには？](./Documentations/Create_your_own_ctrl.md) をご確認ください。
 
+
+## チュートリアル
+- [My First TCC チュートリアル](./Documentations/My_First_TCC.md) 
+- [SceneLoader チュートリアル](./Documentations/SceneLoader_Tutorial.md) 
 
 
 ---

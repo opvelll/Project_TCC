@@ -2,10 +2,14 @@
 
 Project_TCCに含まれるシステムを、ご自身のUnityプロジェクトへインストールするための手順を説明します。
 
+## Unity Version
+
+6000.0.28f1
+
 ## インストール手順
 
 1. **Project_TCCをダウンロード**  
-   `Project_TCC`を[Zip形式でダウンロード](https://github.com/unity3d-jp/Project_TCC/archive/refs/heads/main.zip)します。
+   `Project_TCC`を[Zip形式でダウンロード](https://github.com/opvelll/Project_TCC/archive/refs/heads/main.zip)します。
 
 2. **Zipフォルダを解凍**  
    ダウンロードしたZipフォルダを解凍します。
@@ -28,23 +32,7 @@ Visual Scriptingを使用する場合の設定手順です。
 
 1. **Visual Scriptingの初期化**  
    - メニューから`Edit > Project Settings > Visual Scripting`に進みます。
-   - `Visual Scripting`タブを開き、`Initialize Visual Scripting`ボタンを押します。
-
-   ![SysInst_Image01.png](./Images/SysInst_Image01.png "SysInst_Image01")
-
-2. **パッケージが使用するコンポーネントを使用可能にする**  
-   - `Generate Nodes`メニューから`Node Library`を開きます。
-
-   ![SysInst_Image02.png](./Images/SysInst_Image02.png "SysInst_Image02")
-
-
-   - 右端の「＋」ボタンで新規スロットを追加し、以下の各アセンブリを登録します。
-     - `Utj.SceneLoader`
-     - `Utj.GameDataSave`
-     - `Utj.ScenarioImporter`
-     - `Utj.TinyCharacterController`
-
-    ![SysInst_Image03.png](./Images/SysInst_Image03.png "SysInst_Image03")
+   - `Visual Scripting`タブを開きます。自動で初期化されます。
 
 
 ## SceneLoaderの使用
