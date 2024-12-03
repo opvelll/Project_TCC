@@ -38,12 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 9cfa8ea678d49ae4a8c9150e745d4733, type: 3}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":44.0,"y":-54.99998},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-488.0,"y":-160.0},"guid":"5c9c0779-579b-4804-8396-8713818d5765","$version":"A","$type":"Unity.VisualScripting.Start","$id":"10"},{"chainable":false,"parameterNames":["key","loadMode","activateOnLoad","priority"],"member":{"name":"LoadSceneAsync","parameterTypes":["System.Object","UnityEngine.SceneManagement.LoadSceneMode","System.Boolean","System.Int32"],"targetType":"UnityEngine.AddressableAssets.Addressables","targetTypeName":"UnityEngine.AddressableAssets.Addressables","$version":"A"},"defaultValues":{"%loadMode":{"$content":"Single","$type":"UnityEngine.SceneManagement.LoadSceneMode"},"%activateOnLoad":{"$content":true,"$type":"System.Boolean"},"%priority":{"$content":100,"$type":"System.Int32"}},"position":{"x":-251.0,"y":-160.0},"guid":"39be71f9-a806-4e3e-ad43-6f9644c5c55e","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"12"},{"type":"System.String","value":{"$content":"SceneLoader_Function_Title","$type":"System.String"},"defaultValues":{},"position":{"x":-257.0,"y":28.0},"guid":"6c402b21-d07e-442e-a839-6d344a5b918f","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"16"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"0dcb8408-f73f-48c2-855b-4e831db8e3cb","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"12"},"destinationKey":"%key","guid":"c1dddf65-132a-4949-9d99-1ce479357761","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-293.0,"yMin":-208.8,"xMax":-23.0,"yMax":138.2},"label":"Title\u30b7\u30fc\u30f3\u3092\u8aad\u307f\u8fbc\u307f\u81ea\u5206\u3092\u7834\u68c4\u3059\u308b","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"ee238e49-5acf-4856-862f-543a8a173759","$version":"A","$type":"Unity.VisualScripting.GraphGroup"},{"position":{"xMin":-8.0,"yMin":-204.0,"xMax":453.0,"yMax":-85.0},"title":"Load
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":44.0,"y":-54.99998},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-488.0,"y":-160.0},"guid":"5c9c0779-579b-4804-8396-8713818d5765","$version":"A","$type":"Unity.VisualScripting.Start","$id":"10"},{"chainable":false,"parameterNames":["key","loadMode","activateOnLoad","priority"],"member":{"name":"LoadSceneAsync","parameterTypes":["System.Object","UnityEngine.SceneManagement.LoadSceneMode","System.Boolean","System.Int32"],"targetType":"UnityEngine.AddressableAssets.Addressables","targetTypeName":"UnityEngine.AddressableAssets.Addressables","$version":"A"},"defaultValues":{},"position":{"x":-251.0,"y":-160.0},"guid":"39be71f9-a806-4e3e-ad43-6f9644c5c55e","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"12"},{"type":"System.String","value":{"$content":"SceneLoader_Function_Title","$type":"System.String"},"defaultValues":{},"position":{"x":-257.0,"y":28.0},"guid":"6c402b21-d07e-442e-a839-6d344a5b918f","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"16"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"f6485c07-ffee-4915-a434-b54be37df5f5","$type":"Unity.VisualScripting.InvalidConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"12"},"destinationKey":"%key","guid":"79999a6a-38fb-408f-9e42-2651472d35ca","$type":"Unity.VisualScripting.InvalidConnection"},{"position":{"xMin":-293.0,"yMin":-208.8,"xMax":-23.0,"yMax":138.2},"label":"Title\u30b7\u30fc\u30f3\u3092\u8aad\u307f\u8fbc\u307f\u81ea\u5206\u3092\u7834\u68c4\u3059\u308b","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"ee238e49-5acf-4856-862f-543a8a173759","$version":"A","$type":"Unity.VisualScripting.GraphGroup"},{"position":{"xMin":-8.0,"yMin":-204.0,"xMax":453.0,"yMax":-85.0},"title":"Load
       Mode\u306e\u6319\u52d5","body":"Single\uff1a\n\u73fe\u5728\u958b\u304b\u308c\u3066\u3044\u308b\u5168\u3066\u306e\u30b7\u30fc\u30f3\u3092\u7834\u68c4\u3057\u3001\u6307\u5b9a\u3057\u305f\u30b7\u30fc\u30f3\u30d5\u30a1\u30a4\u30eb\u306e\u307f\u3092\u65b0\u898f\u306b\u8aad\u307f\u8fbc\u307f\u3080\u3002\n\nAdditve\uff1a\n\u6307\u5b9a\u3057\u305f\u30b7\u30fc\u30f3\u3092\u8ffd\u52a0\u3067\u8aad\u307f\u8fbc\u3080\u3002","colorTheme":"Blue","guid":"04c0c64e-0fc3-4e31-be6a-c7eea216ac23","$type":"Unity.VisualScripting.StickyNote"}],"$version":"A"}}}'
     _objectReferences: []
 --- !u!114 &416365921
@@ -305,6 +305,7 @@ MonoBehaviour:
   _scene:
     m_AssetGUID: 05bdbfee28d332b4eb971dca95d4b1eb
     m_SubObjectName: 
+    m_SubObjectGUID: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
   _priority: 100
@@ -315,8 +316,8 @@ MonoBehaviour:
   OnUnloaded:
     m_PersistentCalls:
       m_Calls: []
-  state: 1
   _sceneName: Field
+  state: 1
 --- !u!1 &856340549
 GameObject:
   m_ObjectHideFlags: 0
@@ -448,12 +449,12 @@ MonoBehaviour:
   m_RequiresColorTexture: 0
   m_Version: 2
   m_TaaSettings:
-    quality: 3
-    frameInfluence: 0.1
-    jitterScale: 1
-    mipBias: 0
-    varianceClampScale: 0.9
-    contrastAdaptiveSharpening: 0
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!1 &873419105
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,6 +1085,7 @@ MonoBehaviour:
   _scene:
     m_AssetGUID: 89ecf8f064a741d4a93b474537e2ac53
     m_SubObjectName: 
+    m_SubObjectGUID: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
   _priority: 100
@@ -1094,8 +1096,8 @@ MonoBehaviour:
   OnUnloaded:
     m_PersistentCalls:
       m_Calls: []
-  state: 1
   _sceneName: Title
+  state: 1
 --- !u!4 &1788620937
 Transform:
   m_ObjectHideFlags: 0
