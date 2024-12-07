@@ -35,9 +35,15 @@ http://tsugi-studio.com/web/jp/products-gamesynth.html
 * This project contains the font 'Source Han Sans' font. This font is licensed by Adobe and SIL OPEN FONT LICENSE v.1.1
 https://github.com/adobe-fonts/source-han-sans?tab=License-1-ov-file#License-1-ov-file
 
-## Unity Version
+## 対応Unityバージョン
 
-6000.0.28f1
+Unity 6000.0.28f1
+
+## 試すには
+
+1. このレポジトリをクローンします。
+2. Unity Hubでプロジェクトとして開きます。
+3. Assets > TCC > Scenes にあるシーンを再生します。
 
 ## Project_TCCに含まれるシステムを、ご自身のUnityプロジェクトにインストールしたい場合
 
