@@ -50,6 +50,9 @@ Visual Scriptingを使用する場合の設定手順です。
 
     ![SysInst_Image03.png](./Images/SysInst_Image03.png "SysInst_Image03")
 
+3. 必要に応じてType Optionsにクラスを新規に追加する
+
+   - `Type Options` メニューに、TCCパッケージのクラス(例えばScene Load Manager)を追加することで、Visual Scripting画面のノード検索より呼び出すことができます。
 
 ## SceneLoaderの使用
 
@@ -62,4 +65,10 @@ SceneLoaderを使用する前に、Addressableが初期化されている必要�
 
    ![SysInst_Image04.png](./Images/SysInst_Image04.png "SysInst_Image04")
 
----
+有効化後、SceneLoaderコンポーネントにSceneを登録した際、自動でAddressableにSceneが登録されます。
+
+## Next
+
+   - [My First TCC](My_First_TCC.md) : TCC最初のステップ
+   - [SceneLoader Tutorial](SceneLoader_Tutorial.md) : SceneLoaderの使い方
+   - [SBSシリーズ](../README.md#step-by-stepsbsシリーズとは) : プロジェクトフォルダ内の`Assets/TCC/Scenes` 内に収録されている、TCCのサンプルシーン群

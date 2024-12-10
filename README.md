@@ -43,7 +43,7 @@ Unity 6000.0.28f1
 
 1. このレポジトリをクローンします。
 2. Unity Hubでプロジェクトとして開きます。
-3. Assets > TCC > Scenes にあるシーンを再生します。
+3. `Assets/TCC/Scenes` にあるシーンを再生します。
 
 ## Project_TCCに含まれるシステムを、ご自身のUnityプロジェクトにインストールしたい場合
 
