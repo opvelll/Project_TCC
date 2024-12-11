@@ -13,13 +13,16 @@ MonoBehaviour:
   m_Name: Default Local Group
   m_EditorClassIdentifier: 
   m_GroupName: Default Local Group
-  m_Data:
-    m_SerializedData: []
   m_GUID: 694da1be250af084ba91e339e108a343
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 67ec1289404530845831c16b70b0aa3f
+    m_Address: Assets/MyFirstTCC/SubScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 7839b1d77868b4aa9ada60b03f2a55ef, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: a3fbcb0f08e454246840f7ea67cb055e, type: 2}
     - {fileID: 11400000, guid: f9660e4885ad643d3a2f7ab95c151cc6, type: 2}
+    - {fileID: 11400000, guid: a3fbcb0f08e454246840f7ea67cb055e, type: 2}
