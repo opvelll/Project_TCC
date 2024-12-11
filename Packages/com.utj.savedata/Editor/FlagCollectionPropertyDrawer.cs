@@ -1,4 +1,3 @@
-using Unity.SaveData;
 using UnityEditor;
 using UnityEngine;
 
@@ -22,7 +21,7 @@ namespace Unity.SaveData
         private Rect GetValueRect(Rect position)
         {
             var rect = position;
-            rect.width = 15;
+            rect.width = 30;
             return rect;
         }
 
