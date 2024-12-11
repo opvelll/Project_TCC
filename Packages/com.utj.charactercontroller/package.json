@@ -1,7 +1,7 @@
 {
   "name": "com.unity.tiny.character.controller",
   "displayName": "Tiny Character Controller",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "unity": "2023.3",
   "dependencies": {
     "com.unity.burst": "1.8.10",
